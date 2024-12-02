@@ -1,10 +1,17 @@
 ﻿namespace Liskov
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Company company = new Company();
+
+            company.Workers.Add(new Programmer());
+            company.EmployedWorkers.Add(new Programmer());
+            company.Workers.Add(new Robot());
+
+            company.Work();
+            company.TakeBreak();
         }
     }
 }
