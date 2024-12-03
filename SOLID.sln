@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{1A0AACFF-785B-4AB8-AB46-2492813AD63A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj", "{1A0AACFF-785B-4AB8-AB46-2492813AD63A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renderers", "Renderers\Renderers.csproj", "{9C72007C-E370-47F4-9A50-3693C06A8787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Renderers", "Renderers\Renderers.csproj", "{9C72007C-E370-47F4-9A50-3693C06A8787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{2C21BFC0-7F27-48C8-8213-4557EE1AF244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{2C21BFC0-7F27-48C8-8213-4557EE1AF244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskov", "Liskov\Liskov.csproj", "{A5596859-E027-495C-9DE2-6F7FB1CED081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Liskov", "Liskov\Liskov.csproj", "{A5596859-E027-495C-9DE2-6F7FB1CED081}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.Stream_Progress", "..\..\..\Downloads\07.CSharp-OOP-SOLID-Lab-Skeleton_6.0 (1)\P01.Stream_Progress\P01.Stream_Progress.csproj", "{F8CB5F87-A0B5-4042-9FB2-CD5B3BE7D4BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.Graphic_Editor", "..\..\..\Downloads\07.CSharp-OOP-SOLID-Lab-Skeleton_6.0 (1)\P02.Graphic_Editor\P02.Graphic_Editor.csproj", "{A7CA2C99-C11B-4894-8005-D33CFC1EA1BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.Detail_Printer", "..\..\..\Downloads\07.CSharp-OOP-SOLID-Lab-Skeleton_6.0 (1)\P03.Detail_Printer\P03.Detail_Printer.csproj", "{702C2C4F-6E1E-469C-85B2-B7203A2F9C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.Recharge", "..\..\..\Downloads\07.CSharp-OOP-SOLID-Lab-Skeleton_6.0 (1)\P04.Recharge\P04.Recharge.csproj", "{F396B2B0-26C2-49D1-88DB-9E1AE6FE273F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{56652262-C8F2-4DBA-90EE-477E6B1A2728}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{F8CB5F87-A0B5-4042-9FB2-CD5B3BE7D4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8CB5F87-A0B5-4042-9FB2-CD5B3BE7D4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8CB5F87-A0B5-4042-9FB2-CD5B3BE7D4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CA2C99-C11B-4894-8005-D33CFC1EA1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CA2C99-C11B-4894-8005-D33CFC1EA1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CA2C99-C11B-4894-8005-D33CFC1EA1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CA2C99-C11B-4894-8005-D33CFC1EA1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702C2C4F-6E1E-469C-85B2-B7203A2F9C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702C2C4F-6E1E-469C-85B2-B7203A2F9C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702C2C4F-6E1E-469C-85B2-B7203A2F9C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702C2C4F-6E1E-469C-85B2-B7203A2F9C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F396B2B0-26C2-49D1-88DB-9E1AE6FE273F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F396B2B0-26C2-49D1-88DB-9E1AE6FE273F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F396B2B0-26C2-49D1-88DB-9E1AE6FE273F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F396B2B0-26C2-49D1-88DB-9E1AE6FE273F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56652262-C8F2-4DBA-90EE-477E6B1A2728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56652262-C8F2-4DBA-90EE-477E6B1A2728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56652262-C8F2-4DBA-90EE-477E6B1A2728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56652262-C8F2-4DBA-90EE-477E6B1A2728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
