@@ -1,6 +1,8 @@
-﻿namespace Logger.Interfaces;
+﻿using Logger.Enums;
+
+namespace Logger.Interfaces;
 
 public interface IAppender
 {
-    bool Append(string dateAndTime, string reportLevel, string message);
+    bool Append(string dateAndTime, ReportLevel reportLevel, string message);
 }

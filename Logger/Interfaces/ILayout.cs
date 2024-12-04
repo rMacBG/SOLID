@@ -1,6 +1,8 @@
-﻿namespace Logger.Interfaces;
+﻿using Logger.Enums;
+
+namespace Logger.Interfaces;
 
 public interface ILayout
 {
-    string Format(string dateAndTime, string reportLevel, string message);
+    string Format(string dateAndTime, ReportLevel reportLevel, string message);
 }

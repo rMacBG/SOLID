@@ -1,0 +1,12 @@
+<log>
+   <date>gosho</date>
+   <level>gosho</level>
+   <message>gosho</message>
+</log>
+
+<log>
+   <date>gosho</date>
+   <level>gosho</level>
+   <message>gosho</message>
+</log>
+

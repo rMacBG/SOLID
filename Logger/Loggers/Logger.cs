@@ -1,4 +1,5 @@
-﻿using Logger.Interfaces;
+﻿using Logger.Enums;
+using Logger.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,22 +16,8 @@ namespace Logger.Loggers
             this._appenders = appenders;
         }
 
-        public void Critical(string dateAndTime, string message)
-        => this.Log(dateAndTime, nameof(Critical), message);
-
-        public void Error(string dateAndTime, string message)
-        => this.Log(dateAndTime, nameof(Error), message);
-
-        public void Fatal(string dateAndTime, string message)
-        => this.Log(dateAndTime, nameof(Fatal), message);
-        public void Info(string dateAndTime, string message)
-        => this.Log(dateAndTime, nameof(Info), message);
-
-        public void Warning(string dateAndTime, string message)
-        => this.Log(dateAndTime, nameof(Warning), message);
-
-        private void Log(string dateAndTime,string reportLevel, string message)
-        {
+        public void Log(string dateAndTime,ReportLevel reportLevel, string message)
+        { 
             foreach (IAppender appender in this._appenders)
             {
                 appender.Append(dateAndTime, reportLevel, message);

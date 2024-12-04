@@ -1,4 +1,5 @@
-﻿using Logger.Interfaces;
+﻿using Logger.Enums;
+using Logger.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Logger.Layouts
 {
     public class SimpleLayout : ILayout
     {
-        public string Format(string dateAndTime, string reportLevel, string message)
+        public string Format(string dateAndTime, ReportLevel reportLevel, string message)
         => $"{dateAndTime} - {reportLevel} - {message}";
     }
 }
